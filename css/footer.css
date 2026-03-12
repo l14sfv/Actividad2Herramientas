@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+}
+
+/* Footer: 4 columnas horizontales */
+footer {
+    display: grid;
+    grid-template-columns: auto 1fr 1fr auto; /* logo+redes | columna 1 | columna 2 | botón */
+    align-items: flex-start;
+    padding: 40px 80px;
+    gap: 40px;
+    color: #fff;
+    background-color: hsl(233, 26%, 24%);  
+}
+
+/* Logo */
+.contenedor img {
+    display: block;
+}
+
+/* Redes sociales debajo del logo */
+.contenedor1-footer {
+    grid-column: 1 / 2;
+    margin-top: 40px;
+    display: flex;
+    gap: 20px;
+}
+
+/* Columna About/Contact/Blog */
+.contenedor2-footer ul,
+.contenedor3-footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.contenedor2-footer li,
+.contenedor3-footer li {
+    margin-bottom: 8px;
+    cursor: pointer;
+}
+
+/* Botón + copyright a la derecha */
+.contenedor4-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 20px;
+}
+
+.boton-solicitud {
+    background-image: linear-gradient(90deg, hsl(192, 69%, 51%), hsl(136, 64%, 51%));
+    color: #fff;
+    border: none;
+    padding: 10px 24px;
+    border-radius: 20px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.contenedor4-footer p {
+    margin: 0;
+    font-size: 0.9rem;
+}
+
+/* Responsive */
+@media (max-width: 480px) {
+    .social-icons {
+    gap: 15px;
+    }
+    .social-link {
+    width: 50px;
+    height: 50px;
+    }
+}
