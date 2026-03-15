@@ -72,7 +72,7 @@
     text-align: left;
     max-width: 1200px;
     margin: 0 auto;
-    background-color: #edeef3;
+    background-color: #fcfcfc;
 }
 
 .articulos {
@@ -84,14 +84,14 @@
 
 .articulo1, .articulo2, .articulo3, .articulo4 {
     display: block;
-    background-color: #e0dfdf;
+    background-color: #ffffff;
     text-align: left;
 }
 
 .articulo1 img, .articulo2 img, .articulo3 img, .articulo4 img {
     width: 100%;
     width: auto;
-    height: 200px;
+    height: 160px;
     margin-bottom: 32px;
 }
 
