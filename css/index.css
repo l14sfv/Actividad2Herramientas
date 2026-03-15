@@ -1,0 +1,120 @@
+.contenedor1 {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 140px 100px 80px
+}
+
+.imagen {
+    width: 100%;
+    max-width: 550px;
+    height: auto;
+}
+
+.titulo1 {
+    font-size: 60px;
+    font-weight:600;
+    margin-bottom: 20px;
+}
+
+.contenedor2 {
+    padding: 120px 100px;
+    text-align: left;
+    background: #F8F9FA;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.texto {
+    margin-bottom: 80px;
+}
+
+.texto h1 {
+    font-size: 3rem;
+    font-weight: 300;
+    color: #1D1D1D;
+    margin-bottom: 24px;
+}
+
+/* Grid responsive de 4 columnas */
+.iconos {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 40px;
+}
+
+.icono1, .icono2, .icono3, .icono4 {
+    padding: 40px 20px;
+}
+
+.icono1 img, .icono2 img, .icono3 img, .icono4 img {
+    width: 72px;
+    height: 72px;
+    margin-bottom: 32px;
+    display: block;
+}
+
+.icono1 h2, .icono2 h2, .icono3 h2, .icono4 h2 {
+    font-size: 1.375rem;
+    margin-bottom: 24px;
+    color: #1D1D1D;
+}
+
+.icono1 p, .icono2 p, .icono3 p, .icono4 p {
+    color: #9698A6;
+    line-height: 1.7;
+    font-size: 1rem;
+}
+
+.contenedor3 {
+    padding: 120px 100px;
+    text-align: left;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #edeef3;
+}
+
+.articulos {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 40px;
+
+}
+
+.articulo1, .articulo2, .articulo3, .articulo4 {
+    display: block;
+    background-color: #e0dfdf;
+    text-align: left;
+}
+
+.articulo1 img, .articulo2 img, .articulo3 img, .articulo4 img {
+    width: 100%;
+    width: auto;
+    height: 200px;
+    margin-bottom: 32px;
+}
+
+.articulo1 p, .articulo2 p, .articulo3 p, .articulo4 p {
+    color: #9698A6;
+    font-size: 0.875rem;
+    margin-bottom: 8px;
+    padding: 20px;
+}
+.articulo1 h2, .articulo2 h2, .articulo3 h2, .articulo4 h2 {
+    font-size: 1.375rem;
+    margin-bottom: 24px;
+    padding: 0 20px;
+    color: #1D1D1D;
+}
+
+/* Responsive */
+@media (max-width: 480px) {
+    .social-icons {
+    gap: 15px;
+    }
+    .social-link {
+    width: 50px;
+    height: 50px;
+    }
+}

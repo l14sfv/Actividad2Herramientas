@@ -17,6 +17,7 @@ footer {
 /* Logo */
 .contenedor img {
     display: block;
+    align-items: left;
 }
 
 /* Redes sociales debajo del logo */
